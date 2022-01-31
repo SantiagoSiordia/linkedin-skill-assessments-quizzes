@@ -1832,3 +1832,51 @@ p + section {
   margin: 0 auto;
 }
 ```
+
+#### Q122. Which corner will the puppy be in when these css rules are applied?
+
+```css
+.pen {
+  height: 100px;
+  width: 100px;
+  border: 2px dashed brown;
+  position: relative;
+}
+#puppy {
+  position: absolute;
+  right: 80px;
+  botton: 0px;
+}
+```
+
+```html
+<div class="pen">
+  <span id="puppy"></span>
+</div>
+```
+
+- [x] bottom-right corner
+- [ ] bottom-left corner
+- [ ] top-left corner
+- [ ] top-right corner
+
+#### Q123. Which missing code will give "Cellar Door" a shadow?
+
+```html
+<sytle>
+  #cellar-door {
+    box-shadow: 3px 5px 10px #000;
+  }
+  
+  .text-shadow {
+    text-shadow: 3px 5px 10px #000;
+  }
+</style>
+
+<h1 ______>Cellar Door</h1>
+```
+
+- [ ] id="text-shadow"
+- [x] id="cellar-door"
+- [ ] class="text-shadow"
+- [ ] class="cellar-door"
